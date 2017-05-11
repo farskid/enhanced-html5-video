@@ -1,6 +1,13 @@
+An enhanced html5 video element with extra accessibility tools.
+
+## Features:
+* Spacebar keyboard key will toggle player state from playing to paused and vice versa.
+
+For more features to be added soon, check out _TODO_ part below.
 
 ## Usage
 Nodejs: `npm install enhaced-html5-video`
+
 Browser: Grab `video.js` from the repo.
 
 
@@ -19,9 +26,16 @@ Browser: Grab `video.js` from the repo.
 
 ## Development
 clone repo: `git clone https://github.com/farskid/enhanced-html5-video.git`
+
 install development packages: `yarn`
+
 run local server: `yarn start`. Will start a local server on __localhost:4000__
 
-Happy Development!
+__Happy Development!__
 
-MIT Licensed. Credit to _Farzad YZ_<farskid@gmail.com>
+## TODO
+* Add cover image to video
+
+Credit: _Farzad YZ_ <farskid@gmail.com>
+
+MIT Licensed.
