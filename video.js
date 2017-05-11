@@ -1,4 +1,4 @@
-var enhancedHTML5Video = (function () {
+window.enhancedHTML5Video = (function () {
 
   function queryElements(id) {
     var container = document.getElementById(id)
