@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "export NODE_ENV=development",
     "prod": "export NODE_ENV=production",
-    "lint": "./node_modules/.bin/eslint .",
+    "lint": "./node_modules/.bin/eslint video.js",
     "start": "yarn run dev && ./node_modules/.bin/nodemon server.js"
   },
   "dependencies": {
