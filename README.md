@@ -35,6 +35,10 @@ __Happy Development!__
 
 ## TODO
 * Add cover image to video
+* Key Bindings:
+  * ~~Enter: toggle fullscreen~~
+  * ~~doubleClick: toggle fullscreen~~
+  * ~~click on whole video canvas: toggle playing state~~
 
 Credit: _Farzad YZ_ <farskid@gmail.com>
 
