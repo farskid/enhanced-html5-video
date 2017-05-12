@@ -41,25 +41,25 @@ window.enhancedHTML5Video = (function () {
     ) {
       // Video should enter fullscreen
       if (video.requestFullscreen) {
-        video.requestFullscreen();
+        video.requestFullscreen()
       } else if (video.msRequestFullscreen) {
-        video.msRequestFullscreen();
+        video.msRequestFullscreen()
       } else if (video.mozRequestFullScreen) {
-        video.mozRequestFullScreen();
+        video.mozRequestFullScreen()
       } else if (video.webkitRequestFullscreen) {
-        video.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+        video.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT)
       }
     }
     else {
       // Video should exit fullscreen
       if (document.exitFullscreen) {
-        document.exitFullscreen();
+        document.exitFullscreen()
       } else if (document.msExitFullscreen) {
-        document.msExitFullscreen();
+        document.msExitFullscreen()
       } else if (document.mozCancelFullScreen) {
-        document.mozCancelFullScreen();
+        document.mozCancelFullScreen()
       } else if (document.webkitExitFullscreen) {
-        document.webkitExitFullscreen();
+        document.webkitExitFullscreen()
       }
     }
   }
@@ -82,11 +82,11 @@ window.enhancedHTML5Video = (function () {
 
       // Control Bindings
       // Double Click: Toggle Fullscreen
-      keys.doubleClick && videoElem.addEventListener('dblclick', function (e) {
+      keys.doubleClick && videoElem.addEventListener('dblclick', function () {
         toggleFullScreen(videoElem)
       })
       // Single Click: Toggle Playing State
-      keys.click && videoElem.addEventListener('click', function (e) {
+      keys.click && videoElem.addEventListener('click', function () {
         togglePlayingState(videoElem)
       })
 
