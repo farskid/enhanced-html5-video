@@ -1,7 +1,10 @@
-An enhanced html5 video element with extra accessibility tools.
+An enhanced html5 video element with extra accessibility tools. This is being done to respect common keybindings that users are accustomed to, and use them for better accessibility.
 
 ## Features:
-* Spacebar keyboard key will toggle player state from playing to paused and vice versa.
+* `Spacebar key` will toggle player state from playing to paused and vice versa.
+* `Enter key` will toggle video fullscreen mode.
+* `Click on Video` will toggle video playing state.
+* `Double Click on Video` will toggle video fullscreen mode.
 
 For more features to be added soon, check out _TODO_ part below.
 
