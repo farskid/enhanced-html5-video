@@ -22,7 +22,13 @@ Browser: Grab `video.js` from the repo.
 <script src="/video.js"></script>
 <script>
   enhancedHTML5Video.init({
-    id: 'my-video'
+    id: 'my-video',
+    keys: {
+      doubleClick: true, // Default: true
+      click: true, // Default: true
+      enter: true, // Default: true
+      spacebar: true // Default: true
+    }
   })
 </script>
 ```
