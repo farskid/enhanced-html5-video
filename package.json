@@ -5,6 +5,7 @@
     "dev": "export NODE_ENV=development",
     "prod": "export NODE_ENV=production",
     "lint": "./node_modules/.bin/eslint video.js",
+    "lint:fix": "./node_modules/.bin/eslint --fix video.js",
     "start": "yarn run dev && ./node_modules/.bin/nodemon server.js"
   },
   "dependencies": {
